@@ -23,8 +23,9 @@ function Sidebar(){
           <h3><FiberManualRecordIcon />
             Ranjan Kumar
           </h3>
+          <CreateIcon/>
         </div>
-        <CreateIcon/>
+        
         <SidebarOption Icon ={InsertCommentIcon} title="Threads"/>
         <SidebarOption Icon ={InboxIcon} title="Mention & reactions"/>
         <SidebarOption Icon ={DraftsIcon} title="Saved items"/>

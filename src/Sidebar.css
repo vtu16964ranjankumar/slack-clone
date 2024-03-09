@@ -37,7 +37,7 @@ margin-top: 1px;
 margin-right: 2px;
 color: green;
 }
-.sidebar_header > .MuiSvgIcon-root{
+.sidebar_info > .MuiSvgIcon-root{
   padding: 8px;
   color: #49274b;
   font-size: 18px;
