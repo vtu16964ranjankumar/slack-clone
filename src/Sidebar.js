@@ -13,6 +13,7 @@ import FileCopyIcon from "@mui/icons-material/FileCopy";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import AddIcon from "@mui/icons-material/Add";
+
 function Sidebar(){
   return(
     <div className="sidebar">
@@ -32,10 +33,9 @@ function Sidebar(){
         <SidebarOption Icon ={AppsIcon} title="Apps"/>
         <SidebarOption Icon ={FileCopyIcon} title="File browser"/>
         <SidebarOption Icon ={ExpandLessIcon} title="Show less"/>
-        <hr/>        
-        <SidebarOption Icon ={ExpandMoreIcon} title="Show more"/>
-        <hr/>
-        <SidebarOption Icon ={AddIcon} addChannelOption />
+        <SidebarOption Icon ={ExpandMoreIcon} title="Channel"/>
+        
+        <SidebarOption Icon ={AddIcon} addChannelOption title="Add Channel" />
       </div>
     </div>
   );
